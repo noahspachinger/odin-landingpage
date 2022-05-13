@@ -2,3 +2,64 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+/*main parts*/
+header {
+    height: 7vh;
+    background-color: #1F2937;
+}
+
+.start {
+    height: 60vh;
+    background-color: #1F2937;
+}
+
+.random-information {
+    height: 60vh;
+}
+
+.quote {
+    height: 50vh;
+    background-color: #E5E7EB;
+}
+
+.banner {
+    height: 40vh;
+}
+
+footer {
+    height: 10vh;
+    background-color: #1F2937;
+}
+
+/*general*/
+body {
+    font-family: Arial;
+}
+
+header, .start, .random-information, .quote, .banner, footer {
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+
