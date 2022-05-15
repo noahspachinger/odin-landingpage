@@ -105,3 +105,39 @@ h1 {
     line-height: 30vh;
     flex-shrink: 0;
 }
+
+/*radonm information*/
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    height: 0;
+    line-height: 16vh;
+}
+
+.card {
+    width: 10vw;
+    height: 10vw;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.card-container {
+    width: 10vw;
+}
+
+.big-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+
+.card-text {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #1F2937;
+}
