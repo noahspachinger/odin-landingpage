@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 /*main parts*/
 header {
     height: 7vh;
@@ -32,15 +33,17 @@ footer {
     background-color: #1F2937;
 }
 
+
 /*general*/
 body {
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, .start, .random-information, .quote, .banner, footer {
     padding-left: 12vw;
     padding-right: 12vw;
 }
+
 
 /*header*/
 header {
@@ -61,6 +64,7 @@ ul {
     display: flex;
     gap: 24px;
 }
+
 
 /*start*/
 h1 {
@@ -106,6 +110,7 @@ h1 {
     flex-shrink: 0;
 }
 
+
 /*radonm information*/
 h2 {
     font-size: 36px;
@@ -140,4 +145,29 @@ h2 {
     padding-top: 10px;
     font-size: 18px;
     color: #1F2937;
+}
+
+
+/*quote*/
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 45vw;
+}
+
+.sign {
+    font-size: 24px;
+    color: #1F2937;
+    text-align: right;
+    width: 45vw;
+    font-weight: 900;
+    padding-top: 8px;
 }
