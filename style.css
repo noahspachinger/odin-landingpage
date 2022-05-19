@@ -211,3 +211,13 @@ h2 {
     border-radius: 8px;
     border-style: solid;
 }
+
+
+/*footer*/
+    footer {
+        font-size: 18px;
+        color: #E5E7EB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
